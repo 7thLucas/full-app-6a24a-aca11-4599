@@ -38,6 +38,8 @@ The system is positioned at the intersection of:
 
 **Competitive differentiation:** No other tool combines Etsy-specific AI automation with a gamified, character-driven crew interface that makes running a business feel like playing a strategy game.
 
+**Platform model:** AstroFur Syndicate is also designed to be packaged and sold to other Etsy sellers as a turnkey product. The creator earns income from two concurrent sources: the Etsy store the AI crew runs, and from selling the system itself to buyers who want to run their own automated stores.
+
 ---
 
 ## Brand & Tone
