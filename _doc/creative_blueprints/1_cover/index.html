@@ -1,44 +1,56 @@
 <style>
-  .mode-landscape .sl-cover-layout { display: flex; flex-direction: row; align-items: stretch; min-height: 100%; }
-  .mode-landscape .sl-content-panel { width: 55%; display: flex; flex-direction: column; justify-content: center; }
-  .mode-landscape .sl-image-panel { width: 45%; min-height: 0; }
-  .mode-portrait .sl-cover-layout { display: flex; flex-direction: column; min-height: 100%; }
-  .mode-portrait .sl-content-panel { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-bottom: 1.5rem; }
-  .mode-portrait .sl-image-panel { min-height: 280px; flex-shrink: 0; }
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait  .sl-layout { flex-direction: column; }
+.mode-landscape .sl-content { width: 52%; padding: 3rem; }
+.mode-portrait  .sl-content { padding: 2rem 2rem 1.5rem; }
+.mode-landscape .sl-visual  { width: 48%; }
+.mode-portrait  .sl-visual  { flex: 1; min-height: 38%; }
 </style>
+
 <section class="w-full h-full overflow-auto bg-white">
-  <div class="sl-cover-layout h-full">
-    <div class="sl-content-panel px-12 py-12">
-      <div class="flex flex-col justify-between h-full">
-        <div>
-          <p class="text-xs font-bold tracking-widest uppercase mb-6" style="color:#00E5FF;">Gamified AI Agent Ecosystem · Etsy Automation</p>
-          <h1 class="text-5xl font-black leading-tight mb-4" style="color:#0B0F2E;">AstroFur<br>Syndicate</h1>
-          <p class="text-xl leading-relaxed max-w-md mb-8" style="color:#3D4A6B;">Your AI crew that runs your Etsy empire — while you sleep.</p>
-          <div class="flex flex-col gap-3 max-w-sm">
-            <div class="flex items-center gap-3">
-              <div class="w-2 h-2 rounded-full flex-shrink-0" style="background-color:#00E5FF;"></div>
-              <span class="text-sm font-medium" style="color:#3D4A6B;">7 specialized AI agents, each with a distinct role</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-2 h-2 rounded-full flex-shrink-0" style="background-color:#9B4DFF;"></div>
-              <span class="text-sm font-medium" style="color:#3D4A6B;">Full Etsy lifecycle: research → design → publish → market</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-2 h-2 rounded-full flex-shrink-0" style="background-color:#FFD700;"></div>
-              <span class="text-sm font-medium" style="color:#3D4A6B;">Gamified crew dashboard — strategy game meets passive income</span>
-            </div>
-          </div>
-        </div>
-        <div class="mt-auto pt-10">
-          <data-attribution />
-        </div>
+  <div class="sl-layout flex h-full">
+
+    <!-- Content column -->
+    <div class="sl-content flex flex-col justify-between">
+
+      <!-- Brand label -->
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-px" style="background:#9B4DFF"></div>
+        <span class="text-xs font-black tracking-widest uppercase" style="color:#9B4DFF">AstroFur Syndicate</span>
       </div>
-    </div>
-    <div class="sl-image-panel relative overflow-hidden" style="background:linear-gradient(160deg, #0B0F2E 0%, #1A1F4E 60%, #0D2040 100%);">
-      <div class="absolute inset-0 flex items-center justify-center p-8">
-        <img src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=futuristic+space+command+bridge%2C+seven+anthropomorphic+animal+crew+members+in+glowing+space+suits%2C+holographic+Etsy+dashboards%2C+neon+cyan+and+violet+glow%2C+deep+space+navy+background%2C+cinematic+sci-fi" alt="AstroFur Syndicate crew at the command bridge" class="max-w-full max-h-full object-contain drop-shadow-2xl rounded-2xl" />
+
+      <!-- Headline + tagline -->
+      <div class="flex flex-col gap-4">
+        <h1 class="text-5xl font-black leading-tight text-slate-900">
+          Your Etsy Empire,<br>
+          <span style="color:#9B4DFF">Crewed by AI.</span>
+        </h1>
+        <p class="text-base leading-relaxed text-slate-500" style="max-width:22rem">
+          7 specialized AI agents research, design, list, market, and engage —
+          passively running and continuously self-optimizing your Etsy store, 24/7.
+        </p>
       </div>
-      <div class="absolute bottom-0 left-0 right-0 h-32" style="background:linear-gradient(to top, #0B0F2E80, transparent);"></div>
+
+      <!-- Chips + attribution -->
+      <div class="flex flex-col gap-3">
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 rounded-full text-xs font-bold text-white" style="background:#9B4DFF">Run Your Own Store</span>
+          <span class="px-3 py-1 rounded-full text-xs font-bold" style="background:#0B0F2E;color:#00E5FF">Sell It to Others</span>
+          <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-700">Always Learning</span>
+        </div>
+        <data-attribution />
+      </div>
+
     </div>
+
+    <!-- Visual column -->
+    <div class="sl-visual overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Seven%20glowing%20anthropomorphic%20furry%20space%20crew%20in%20futuristic%20neon%20spacesuits%3A%20arctic%20fox%20captain%2C%20raven%20scout%2C%20red%20tiger%2C%20white%20wolf%2C%20teal%20gecko%2C%20blue%20fennec%20fox%2C%20chromatic%20dragon%2C%20standing%20before%20holographic%20Etsy%20dashboards%20in%20a%20deep%20space%20command%20center%2C%20electric%20cyan%20and%20violet%20glow%20effects%2C%20cinematic%20sci-fi%20digital%20painting"
+        alt="AstroFur Syndicate AI crew in space command center"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
   </div>
 </section>
