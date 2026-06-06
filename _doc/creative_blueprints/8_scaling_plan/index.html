@@ -1,0 +1,111 @@
+<style>
+  .mode-landscape .sl-months { grid-template-columns: repeat(3,1fr); }
+  .mode-portrait  .sl-months { grid-template-columns: 1fr; }
+  .mode-landscape .sl-bottom { flex-direction: row; }
+  .mode-portrait  .sl-bottom { flex-direction: column; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full px-10 py-8 gap-4">
+
+    <!-- Header -->
+    <div class="flex-shrink-0">
+      <p class="text-xs font-bold tracking-widest uppercase mb-1" style="color:#00E5FF">Revenue Outcomes</p>
+      <h2 class="text-3xl font-black" style="color:#0B0F2E">90-Day Scaling Plan</h2>
+    </div>
+
+    <!-- Month cards -->
+    <div class="sl-months grid gap-4">
+
+      <!-- Month 1 -->
+      <div class="rounded-xl p-5 flex flex-col" style="background:#0B0F2E">
+        <div class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#6B7FA8">Month 1 · Foundation</div>
+        <div class="font-black mb-1" style="font-size:2rem;color:#00E5FF;line-height:1.1">$0–500</div>
+        <div class="font-semibold text-sm mb-3" style="color:#C8D6E5">First revenue flowing</div>
+        <ul class="flex flex-col gap-1 flex-1">
+          <li class="text-xs" style="color:#8B9ABF">· 50 listings across 3 niches live</li>
+          <li class="text-xs" style="color:#8B9ABF">· All 7 agents fully configured</li>
+          <li class="text-xs" style="color:#8B9ABF">· Pinterest & SEO foundation built</li>
+          <li class="text-xs" style="color:#8B9ABF">· First organic sales & reviews earned</li>
+        </ul>
+      </div>
+
+      <!-- Month 2 -->
+      <div class="rounded-xl p-5 flex flex-col" style="background:#0B0F2E">
+        <div class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#6B7FA8">Month 2 · Traction</div>
+        <div class="font-black mb-1" style="font-size:2rem;color:#9B4DFF;line-height:1.1">$500–2K</div>
+        <div class="font-semibold text-sm mb-3" style="color:#C8D6E5">Consistent sales engine</div>
+        <ul class="flex flex-col gap-1 flex-1">
+          <li class="text-xs" style="color:#8B9ABF">· 150 listings (10 new/week automated)</li>
+          <li class="text-xs" style="color:#8B9ABF">· 4.8+ star rating maintained by Zephyr</li>
+          <li class="text-xs" style="color:#8B9ABF">· Etsy Ads: $10/day on top 10 listings</li>
+          <li class="text-xs" style="color:#8B9ABF">· Repeat buyers beginning to emerge</li>
+        </ul>
+      </div>
+
+      <!-- Month 3 -->
+      <div class="rounded-xl p-5 flex flex-col" style="background:#0B0F2E">
+        <div class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#6B7FA8">Month 3 · Scale</div>
+        <div class="font-black mb-1" style="font-size:2rem;color:#FF6B2B;line-height:1.1">$2K–5K</div>
+        <div class="font-semibold text-sm mb-3" style="color:#C8D6E5">Passive income engine running</div>
+        <ul class="flex flex-col gap-1 flex-1">
+          <li class="text-xs" style="color:#8B9ABF">· 300+ listings live across all niches</li>
+          <li class="text-xs" style="color:#8B9ABF">· "Fresh Drop" subscription at $9.99/mo</li>
+          <li class="text-xs" style="color:#8B9ABF">· Email list 100+ active subscribers</li>
+          <li class="text-xs" style="color:#8B9ABF">· Second shop in adjacent niche scoped</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- ROI + 30-day roadmap -->
+    <div class="sl-bottom flex gap-4 flex-1">
+
+      <!-- ROI summary -->
+      <div class="flex-1 rounded-xl p-5" style="background:#00E5FF">
+        <div class="font-bold text-sm uppercase tracking-wider mb-4" style="color:#0B0F2E">Why The Economics Work</div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <div class="font-black text-xl" style="color:#0B0F2E">$0</div>
+            <div class="text-xs" style="color:#0B0F2E;opacity:0.7">Fulfillment cost — all digital</div>
+          </div>
+          <div>
+            <div class="font-black text-xl" style="color:#0B0F2E">~$90/mo</div>
+            <div class="text-xs" style="color:#0B0F2E;opacity:0.7">Total AI + tool operating cost</div>
+          </div>
+          <div>
+            <div class="font-black text-xl" style="color:#0B0F2E">300+</div>
+            <div class="text-xs" style="color:#0B0F2E;opacity:0.7">Listings active by day 90</div>
+          </div>
+          <div>
+            <div class="font-black text-xl" style="color:#0B0F2E">∞</div>
+            <div class="text-xs" style="color:#0B0F2E;opacity:0.7">Each listing sells indefinitely</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 30-day launch roadmap -->
+      <div class="flex-1 rounded-xl p-5" style="background:#F8FAFC;border:1px solid #E2E8F0">
+        <div class="font-bold text-sm uppercase tracking-wider mb-3" style="color:#0B0F2E">30-Day Launch Roadmap</div>
+        <div class="flex flex-col gap-2.5">
+          <div class="flex items-start gap-3">
+            <div class="text-white text-xs font-bold px-2 py-0.5 rounded flex-shrink-0" style="background:#0B0F2E">D1–7</div>
+            <span class="text-xs" style="color:#374151">Shop setup · all agents configured · 10 planner listings live</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="text-white text-xs font-bold px-2 py-0.5 rounded flex-shrink-0" style="background:#0B0F2E">D8–14</div>
+            <span class="text-xs" style="color:#374151">20 wall art listings · SEO optimization pass · Pinterest launched</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="text-white text-xs font-bold px-2 py-0.5 rounded flex-shrink-0" style="background:#0B0F2E">D15–21</div>
+            <span class="text-xs" style="color:#374151">3 product bundles · TikTok content briefs · first $5/day Etsy Ads</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <div class="text-white text-xs font-bold px-2 py-0.5 rounded flex-shrink-0" style="background:#0B0F2E">D22–30</div>
+            <span class="text-xs" style="color:#374151">10 Canva templates · full analytics review · target $100–500</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
