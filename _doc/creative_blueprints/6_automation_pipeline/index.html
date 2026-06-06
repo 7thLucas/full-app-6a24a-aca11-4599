@@ -1,0 +1,116 @@
+<style>
+  .mode-landscape .sl-pipeline { display: flex; flex-direction: row; align-items: stretch; gap: 0.35rem; }
+  .mode-portrait  .sl-pipeline { display: grid; grid-template-columns: repeat(2,1fr); gap: 0.5rem; }
+  .mode-portrait  .sl-arrow   { display: none; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full px-10 py-8 gap-4">
+
+    <!-- Header -->
+    <div class="flex items-end justify-between flex-shrink-0">
+      <div>
+        <p class="text-xs font-bold tracking-widest uppercase mb-1" style="color:#39FF14">Full Automation</p>
+        <h2 class="text-3xl font-black" style="color:#0B0F2E">From Trend to Sale — Automatically</h2>
+      </div>
+      <span class="px-3 py-1 rounded-full text-xs font-bold" style="background:#0B0F2E;color:#00E5FF">∞ Continuous Loop</span>
+    </div>
+
+    <!-- Pipeline -->
+    <div class="sl-pipeline flex-1">
+
+      <!-- Step 1 -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col" style="background:#0B0F2E;border-top:3px solid #FFD700">
+        <div class="text-xl mb-2">📡</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#FFD700">Step 1</div>
+        <div class="font-bold text-xs mb-1" style="color:#FFFFFF">Trend Scan</div>
+        <div class="text-xs flex-1" style="color:#8B9ABF">Weekly keyword & niche research</div>
+        <div class="text-xs font-semibold mt-2" style="color:#FFD700">Nova Stryx</div>
+      </div>
+
+      <div class="sl-arrow flex items-center flex-shrink-0" style="color:#C8D6E5;font-size:1rem;padding:0 1px">›</div>
+
+      <!-- Step 2 -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col" style="background:#0B0F2E;border-top:3px solid #00E5FF">
+        <div class="text-xl mb-2">🧠</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#00E5FF">Step 2</div>
+        <div class="font-bold text-xs mb-1" style="color:#FFFFFF">Strategy Set</div>
+        <div class="text-xs flex-1" style="color:#8B9ABF">Captain assigns weekly product quota</div>
+        <div class="text-xs font-semibold mt-2" style="color:#00E5FF">Orion Vex</div>
+      </div>
+
+      <div class="sl-arrow flex items-center flex-shrink-0" style="color:#C8D6E5;font-size:1rem;padding:0 1px">›</div>
+
+      <!-- Step 3 -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col" style="background:#0B0F2E;border-top:3px solid #FF6B2B">
+        <div class="text-xl mb-2">💡</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#FF6B2B">Step 3</div>
+        <div class="font-bold text-xs mb-1" style="color:#FFFFFF">Product Briefs</div>
+        <div class="text-xs flex-1" style="color:#8B9ABF">10 product concepts per cycle</div>
+        <div class="text-xs font-semibold mt-2" style="color:#FF6B2B">Blaze Korrath</div>
+      </div>
+
+      <div class="sl-arrow flex items-center flex-shrink-0" style="color:#C8D6E5;font-size:1rem;padding:0 1px">›</div>
+
+      <!-- Step 4 -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col" style="background:#0B0F2E;border-top:3px solid #9B4DFF">
+        <div class="text-xl mb-2">🎨</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#9B4DFF">Step 4</div>
+        <div class="font-bold text-xs mb-1" style="color:#FFFFFF">Design Files</div>
+        <div class="text-xs flex-1" style="color:#8B9ABF">AI-generated art + Canva layouts</div>
+        <div class="text-xs font-semibold mt-2" style="color:#9B4DFF">Lux Aether</div>
+      </div>
+
+      <div class="sl-arrow flex items-center flex-shrink-0" style="color:#C8D6E5;font-size:1rem;padding:0 1px">›</div>
+
+      <!-- Step 5 -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col" style="background:#0B0F2E;border-top:3px solid #39FF14">
+        <div class="text-xl mb-2">📝</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#39FF14">Step 5</div>
+        <div class="font-bold text-xs mb-1" style="color:#FFFFFF">SEO Listings</div>
+        <div class="text-xs flex-1" style="color:#8B9ABF">Titles, 13 tags, full descriptions</div>
+        <div class="text-xs font-semibold mt-2" style="color:#39FF14">Echo Rix</div>
+      </div>
+
+      <div class="sl-arrow flex items-center flex-shrink-0" style="color:#C8D6E5;font-size:1rem;padding:0 1px">›</div>
+
+      <!-- Step 6: Auto-publish -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col border-2" style="border-color:#D1D5DB;background:#F9FAFB">
+        <div class="text-xl mb-2">⚡</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#6B7280">Step 6</div>
+        <div class="font-bold text-xs mb-1" style="color:#111827">Auto-Publish</div>
+        <div class="text-xs flex-1" style="color:#6B7280">Etsy API v3 pushes listing live</div>
+        <div class="text-xs font-semibold mt-2" style="color:#6B7280">Etsy API</div>
+      </div>
+
+      <div class="sl-arrow flex items-center flex-shrink-0" style="color:#C8D6E5;font-size:1rem;padding:0 1px">›</div>
+
+      <!-- Step 7 -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col" style="background:#0B0F2E;border-top:3px solid #FF006E">
+        <div class="text-xl mb-2">📣</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#FF006E">Step 7</div>
+        <div class="font-bold text-xs mb-1" style="color:#FFFFFF">Marketing Push</div>
+        <div class="text-xs flex-1" style="color:#8B9ABF">Pinterest, TikTok, email, Etsy Ads</div>
+        <div class="text-xs font-semibold mt-2" style="color:#FF006E">Flux Draykon</div>
+      </div>
+
+      <div class="sl-arrow flex items-center flex-shrink-0" style="color:#C8D6E5;font-size:1rem;padding:0 1px">›</div>
+
+      <!-- Step 8 -->
+      <div class="flex-1 rounded-xl p-3 flex flex-col" style="background:#0B0F2E;border-top:3px solid #0066FF">
+        <div class="text-xl mb-2">💬</div>
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#0066FF">Step 8</div>
+        <div class="font-bold text-xs mb-1" style="color:#FFFFFF">Customer Care</div>
+        <div class="text-xs flex-1" style="color:#8B9ABF">Reviews & messages, daily</div>
+        <div class="text-xs font-semibold mt-2" style="color:#0066FF">Zephyr Voss</div>
+      </div>
+
+    </div>
+
+    <!-- Loop note -->
+    <div class="flex-shrink-0 flex items-center justify-between px-5 py-3 rounded-lg" style="background:#F8FAFC;border:1px solid #E2E8F0">
+      <span class="text-xs" style="color:#6B7280">After Step 8 → Etsy analytics return to Captain Orion → next weekly cycle begins · no human input required</span>
+      <span class="text-xs font-bold" style="color:#00E5FF">Make.com orchestrates all triggers</span>
+    </div>
+
+  </div>
+</section>
