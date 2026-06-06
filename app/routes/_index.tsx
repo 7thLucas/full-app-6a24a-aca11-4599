@@ -7,8 +7,10 @@ import {
   Rocket,
   Users,
 } from "lucide-react";
-import { useConfigurables } from "~/modules/configurables";
-import { defaultConfigurablesData } from "~/modules/configurables";
+import {
+  useConfigurables,
+  defaultConfigurablesData,
+} from "~/modules/configurables";
 import { BrandMark } from "~/components/brand-mark";
 import { StatTile } from "~/components/stat-tile";
 import { CrewCard } from "~/components/crew-card";
