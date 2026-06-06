@@ -22,6 +22,9 @@
 - Running a side business alongside a day job is exhausting
 - Scaling feels impossible alone
 
+**The creator themselves:**  
+The builder of AstroFur Syndicate will also use the system to run their own Etsy store — the platform's first live deployment. This store is not yet set up and will be launched using AstroFur Syndicate. First-party usage validates the product, generates real performance data, and builds social proof for others purchasing the package.
+
 ---
 
 ## Positioning
