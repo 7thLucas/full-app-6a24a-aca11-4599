@@ -243,6 +243,29 @@ Each agent outputs a structured JSON-formatted report delivered to a shared Airt
 
 ---
 
+## Continuous Learning System
+
+AstroFur Syndicate grows smarter with every cycle. It is not a static "set and forget" tool — it is a living system that reinforces what works and eliminates what doesn't.
+
+**Reinforce winners:**  
+Products, listing copy, keywords, and marketing channels that generate clicks, conversions, and revenue are flagged by Captain Orion Vex and scaled in the next cycle: more listings in winning styles, larger ad spend on proven performers, more marketing content for top-converting products.
+
+**Prune losers:**  
+Listings that fail to generate sales within a defined performance window are either updated by Echo Rix (fresh keywords, new copy) or deprioritized and removed to keep the catalog search-rank-efficient. Poor-performing ad campaigns are cut. Low-engagement marketing channels are paused.
+
+**Adaptive market strategy:**  
+Nova Stryx monitors signals continuously. When a niche peaks or competition spikes, Captain Orion Vex shifts the crew's focus to the next opportunity. The system does not keep investing in declining markets.
+
+**Data-driven feedback loop:**
+- Listing performance (views, favorites, conversion rate) → feeds Captain's next cycle directive
+- Customer sentiment (review language, message themes) → informs Zephyr Voss's engagement updates
+- Marketing ROI (Pinterest clicks, Etsy Ads conversion rates) → guides Flux Draykon's next campaign
+- Agent XP and leveling → creates mechanical incentives for consistent output quality
+
+**Result:** Each month outperforms the last — not by chance, but because the system kept what worked and killed what didn't.
+
+---
+
 ## Gamification System
 
 **Per-Agent Stats:**
