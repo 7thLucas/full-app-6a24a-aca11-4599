@@ -1,0 +1,119 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(4,1fr); }
+  .mode-portrait  .sl-grid { grid-template-columns: repeat(2,1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full px-10 py-8 gap-5">
+
+    <!-- Header + cost badge -->
+    <div class="flex items-start justify-between flex-shrink-0">
+      <div>
+        <p class="text-xs font-bold tracking-widest uppercase mb-1" style="color:#9B4DFF">Infrastructure</p>
+        <h2 class="text-3xl font-black" style="color:#0B0F2E">Tech Stack</h2>
+        <p class="text-sm mt-1" style="color:#6B7280">Beginner-friendly · low-cost · fully integrated</p>
+      </div>
+      <div class="rounded-xl px-5 py-4 text-center" style="background:#0B0F2E">
+        <div class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#00E5FF">Est. Monthly Cost</div>
+        <div class="font-black" style="font-size:1.75rem;color:#FFFFFF;line-height:1.1">$52–$92</div>
+        <div class="text-xs mt-0.5" style="color:#6B7FA8">total operating cost</div>
+      </div>
+    </div>
+
+    <!-- Stack columns -->
+    <div class="sl-grid grid flex-1 gap-4">
+
+      <!-- AI & Intelligence -->
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center gap-2 pb-2" style="border-bottom:1px solid #E5E7EB">
+          <div class="w-2 h-2 rounded-full flex-shrink-0" style="background:#9B4DFF"></div>
+          <span class="text-xs font-bold uppercase tracking-wider" style="color:#0B0F2E">AI & Intelligence</span>
+        </div>
+        <div class="flex flex-col gap-1.5 flex-1">
+          <div class="rounded-lg p-3" style="background:#F5F3FF">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Claude (Anthropic)</div>
+            <div class="text-xs" style="color:#6B7280">Strategy, copy, SEO, orchestration</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#F5F3FF">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">GPT-4o (OpenAI)</div>
+            <div class="text-xs" style="color:#6B7280">Listing copy, customer replies (fallback)</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#F5F3FF">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Midjourney + DALL·E 3 + Ideogram</div>
+            <div class="text-xs" style="color:#6B7280">Product design & art generation · $10/mo</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#F5F3FF">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Canva API · $13/mo</div>
+            <div class="text-xs" style="color:#6B7280">Template layouts, mockups & file export</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Automation -->
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center gap-2 pb-2" style="border-bottom:1px solid #E5E7EB">
+          <div class="w-2 h-2 rounded-full flex-shrink-0" style="background:#39FF14"></div>
+          <span class="text-xs font-bold uppercase tracking-wider" style="color:#0B0F2E">Automation</span>
+        </div>
+        <div class="flex flex-col gap-1.5 flex-1">
+          <div class="rounded-lg p-3" style="background:#F0FDF4">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Make.com · $9/mo</div>
+            <div class="text-xs" style="color:#6B7280">Primary orchestration — agent triggers, scheduling, data routing</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#F0FDF4">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Zapier</div>
+            <div class="text-xs" style="color:#6B7280">Backup automation for simple if-then flows</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#F0FDF4">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Airtable · free–$20/mo</div>
+            <div class="text-xs" style="color:#6B7280">Central database — product catalog, agent logs, XP tracking, metrics</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Etsy & Storage -->
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center gap-2 pb-2" style="border-bottom:1px solid #E5E7EB">
+          <div class="w-2 h-2 rounded-full flex-shrink-0" style="background:#FF6B2B"></div>
+          <span class="text-xs font-bold uppercase tracking-wider" style="color:#0B0F2E">Etsy & Storage</span>
+        </div>
+        <div class="flex flex-col gap-1.5 flex-1">
+          <div class="rounded-lg p-3" style="background:#FFF7ED">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Etsy Open API v3</div>
+            <div class="text-xs" style="color:#6B7280">Listings, orders, analytics & review monitoring</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#FFF7ED">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Google Drive</div>
+            <div class="text-xs" style="color:#6B7280">Master file library & primary customer delivery</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#FFF7ED">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Dropbox</div>
+            <div class="text-xs" style="color:#6B7280">Backup storage & fallback delivery</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard -->
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center gap-2 pb-2" style="border-bottom:1px solid #E5E7EB">
+          <div class="w-2 h-2 rounded-full flex-shrink-0" style="background:#00E5FF"></div>
+          <span class="text-xs font-bold uppercase tracking-wider" style="color:#0B0F2E">Dashboard</span>
+        </div>
+        <div class="flex flex-col gap-1.5 flex-1">
+          <div class="rounded-lg p-3" style="background:#F0FEFF">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">React + Tailwind CSS</div>
+            <div class="text-xs" style="color:#6B7280">Game-style crew dashboard — agent cards, XP bars, glow effects, revenue metrics</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#F0FEFF">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Cursor / Replit</div>
+            <div class="text-xs" style="color:#6B7280">Beginner-friendly build & deploy environment</div>
+          </div>
+          <div class="rounded-lg p-3" style="background:#F0FEFF">
+            <div class="font-semibold text-xs mb-0.5" style="color:#1F2937">Google Calendar</div>
+            <div class="text-xs" style="color:#6B7280">Seasonal campaign calendar + Make.com cron integration</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
