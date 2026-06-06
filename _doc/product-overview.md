@@ -451,3 +451,5 @@ Both streams reinforce each other. The creator's own store generates real perfor
 4. **Niches over generalism** — owning a niche aesthetic (e.g., "dark academia planner") beats competing in a generic category every time.
 5. **Every agent earns its keep** — if an agent's output doesn't drive measurable shop performance, the prompt gets iterated.
 6. **Passive income is built, not stumbled into** — the first 30 days require setup effort; after that, the crew runs autonomously.
+7. **Dual-income by design** — the creator profits from their own Etsy store AND from selling the system to others; both revenue streams run concurrently from the same investment.
+8. **Always learning, never settling** — every performance cycle produces data that feeds the next; the system reinforces winners, prunes losers, and compounds results over time.
