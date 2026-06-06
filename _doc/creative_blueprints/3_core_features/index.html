@@ -1,52 +1,83 @@
 <style>
-  .mode-landscape .sl-features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
-  .mode-portrait .sl-features-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.875rem; }
+.mode-landscape .sl-grid { grid-template-columns: repeat(4, 1fr); }
+.mode-portrait  .sl-grid { grid-template-columns: repeat(2, 1fr); }
 </style>
-<section class="w-full h-full overflow-auto bg-white p-10">
-  <div class="flex items-center justify-between mb-3">
-    <p class="text-xs font-bold tracking-widest uppercase" style="color:#00E5FF;">The 7-Agent Crew</p>
-    <span class="px-3 py-1 rounded-full text-xs font-bold" style="background-color:#0B0F2E; color:#00E5FF;">Always Active</span>
-  </div>
-  <h1 class="text-3xl font-black mb-3 leading-tight" style="color:#0B0F2E;">A full business department in every agent.</h1>
-  <div class="flex flex-wrap gap-2 mb-6">
-    <span class="px-3 py-1.5 rounded-full text-xs font-bold border" style="background-color:#0B0F2E; color:#00E5FF; border-color:#00E5FF40;">Captain Orion Vex — Orchestrator</span>
-    <span class="px-3 py-1.5 rounded-full text-xs font-semibold border" style="background-color:#FFF8DC; color:#7C6A00; border-color:#FFD70040;">Nova Stryx — Market Intel</span>
-    <span class="px-3 py-1.5 rounded-full text-xs font-semibold border" style="background-color:#FFF4EE; color:#8B3A1A; border-color:#FF6B2B40;">Blaze Korrath — Product Creation</span>
-    <span class="px-3 py-1.5 rounded-full text-xs font-semibold border" style="background-color:#F5EEFF; color:#6B2DAA; border-color:#9B4DFF40;">Lux Aether — Design &amp; Art</span>
-    <span class="px-3 py-1.5 rounded-full text-xs font-semibold border" style="background-color:#EFFFEE; color:#1A6E00; border-color:#39FF1440;">Echo Rix — SEO &amp; Listings</span>
-    <span class="px-3 py-1.5 rounded-full text-xs font-semibold border" style="background-color:#EEF4FF; color:#0037A8; border-color:#0066FF40;">Zephyr Voss — Customer Engagement</span>
-    <span class="px-3 py-1.5 rounded-full text-xs font-semibold border" style="background-color:#FFF0F8; color:#7A003F; border-color:#FF006E40;">Flux Draykon — Growth &amp; Marketing</span>
-  </div>
-  <div class="sl-features-grid">
-    <div class="rounded-xl p-5 border" style="background-color:#0B0F2E; border-color:#00E5FF30;">
-      <p class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#00E5FF;">Captain Orion Vex</p>
-      <h3 class="font-bold mb-2 text-white text-sm">Central Orchestration</h3>
-      <p class="text-xs leading-relaxed" style="color:#C8D6E5;">Reviews all agent outputs, assigns tasks, sets revenue targets, and runs continuous feedback loops. Nothing moves without his directive.</p>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="h-full flex flex-col p-10 gap-5">
+
+    <!-- Header row -->
+    <div class="flex items-end justify-between">
+      <div>
+        <p class="text-xs font-black tracking-widest uppercase text-slate-400 mb-1">Platform Capabilities</p>
+        <h2 class="text-3xl font-black text-slate-900">Everything automated. Nothing missed.</h2>
+      </div>
+      <!-- Persona chips -->
+      <div class="flex gap-2">
+        <div class="px-4 py-1.5 rounded-full text-xs font-bold text-white" style="background:#9B4DFF">Store Owner</div>
+        <div class="px-4 py-1.5 rounded-full text-xs font-bold bg-slate-100 text-slate-500">Package Buyer</div>
+      </div>
     </div>
-    <div class="rounded-xl p-5 border" style="background-color:#FFFBEA; border-color:#FFD70030;">
-      <p class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#A07D00;">Nova Stryx</p>
-      <h3 class="font-bold mb-2 text-slate-900 text-sm">Trend &amp; Keyword Intelligence</h3>
-      <p class="text-xs leading-relaxed text-slate-600">Scans Etsy search trends, identifies low-competition niches, and delivers ranked keyword lists and competitor gap analysis each cycle.</p>
-    </div>
-    <div class="rounded-xl p-5 border" style="background-color:#FFF6F1; border-color:#FF6B2B30;">
-      <p class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#C04A10;">Blaze Korrath</p>
-      <h3 class="font-bold mb-2 text-slate-900 text-sm">Product Ideation &amp; Briefs</h3>
-      <p class="text-xs leading-relaxed text-slate-600">Translates market signals into sellable product concepts: names, formats, pricing, bundles, and 5 design variations per product.</p>
-    </div>
-    <div class="rounded-xl p-5 border" style="background-color:#F8F0FF; border-color:#9B4DFF30;">
-      <p class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#6B2DAA;">Lux Aether</p>
-      <h3 class="font-bold mb-2 text-slate-900 text-sm">AI Design &amp; File Creation</h3>
-      <p class="text-xs leading-relaxed text-slate-600">Generates print-ready digital files and Etsy listing mockups using Midjourney, DALL-E 3, and Canva API — zero manual design required.</p>
-    </div>
-    <div class="rounded-xl p-5 border" style="background-color:#EFFFEF; border-color:#39FF1430;">
-      <p class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#1A6E00;">Echo Rix</p>
-      <h3 class="font-bold mb-2 text-slate-900 text-sm">SEO Listing Optimization</h3>
-      <p class="text-xs leading-relaxed text-slate-600">Writes fully optimized Etsy listings: 140-char SEO title, 13 tags, 2,000-char description, pricing, and shop section — every time.</p>
-    </div>
-    <div class="rounded-xl p-5 border" style="background-color:#EEF4FF; border-color:#0066FF30;">
-      <p class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#003FAA;">Zephyr Voss + Flux Draykon</p>
-      <h3 class="font-bold mb-2 text-slate-900 text-sm">Engagement &amp; Growth</h3>
-      <p class="text-xs leading-relaxed text-slate-600">Zephyr handles all buyer messages and reviews; Flux runs Pinterest, TikTok briefs, email sequences, and Etsy Ads — driving traffic 24/7.</p>
+
+    <!-- Feature grid: 4 cols × 2 rows -->
+    <div class="sl-grid flex-1 grid gap-3">
+
+      <!-- 1: Market Intelligence -->
+      <div class="rounded-xl bg-slate-50 border border-slate-100 p-4 flex flex-col gap-2">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#FFD70022">🦅</div>
+        <h3 class="text-sm font-bold text-slate-900">Market Intelligence</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Real-time Etsy trend scanning and keyword research by Nova Stryx.</p>
+      </div>
+
+      <!-- 2: Product Creation -->
+      <div class="rounded-xl bg-slate-50 border border-slate-100 p-4 flex flex-col gap-2">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#FF6B2B22">🐯</div>
+        <h3 class="text-sm font-bold text-slate-900">Product Creation</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">AI-generated concepts, briefs, bundles, and price points by Blaze Korrath.</p>
+      </div>
+
+      <!-- 3: Design & Art -->
+      <div class="rounded-xl bg-slate-50 border border-slate-100 p-4 flex flex-col gap-2">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#9B4DFF22">🐺</div>
+        <h3 class="text-sm font-bold text-slate-900">AI Design Creation</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Print-ready artwork, mockups, and listing images generated by Lux Aether.</p>
+      </div>
+
+      <!-- 4: SEO & Listings -->
+      <div class="rounded-xl bg-slate-50 border border-slate-100 p-4 flex flex-col gap-2">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#39FF1422">🦎</div>
+        <h3 class="text-sm font-bold text-slate-900">SEO &amp; Listings</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Keyword-rich titles, 13 tags, and 2,000-char descriptions by Echo Rix.</p>
+      </div>
+
+      <!-- 5: Customer Engagement -->
+      <div class="rounded-xl bg-slate-50 border border-slate-100 p-4 flex flex-col gap-2">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#0066FF22">🦊</div>
+        <h3 class="text-sm font-bold text-slate-900">Customer Engagement</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Messages, reviews, upsells, and follow-ups handled by Zephyr Voss.</p>
+      </div>
+
+      <!-- 6: Growth & Marketing -->
+      <div class="rounded-xl bg-slate-50 border border-slate-100 p-4 flex flex-col gap-2">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#FF006E22">🐉</div>
+        <h3 class="text-sm font-bold text-slate-900">Growth &amp; Marketing</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Pinterest, TikTok briefs, email sequences, and Etsy Ads by Flux Draykon.</p>
+      </div>
+
+      <!-- 7: Continuous Learning (featured) -->
+      <div class="rounded-xl p-4 flex flex-col gap-2" style="background:#9B4DFF">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#ffffff22">🧠</div>
+        <h3 class="text-sm font-bold text-white">Continuous Learning</h3>
+        <p class="text-xs leading-relaxed" style="color:#E8CFFF">Winners scale up, losers get cut. The crew adapts every cycle — automatically.</p>
+      </div>
+
+      <!-- 8: Gamified Dashboard -->
+      <div class="rounded-xl p-4 flex flex-col gap-2" style="background:#0B0F2E">
+        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-xl" style="background:#ffffff11;color:#00E5FF">🎮</div>
+        <h3 class="text-sm font-bold text-white">Gamified Dashboard</h3>
+        <p class="text-xs leading-relaxed" style="color:#8892B0">Agent XP, levels, task streaks, and neon glow — management as a game.</p>
+      </div>
+
     </div>
   </div>
 </section>

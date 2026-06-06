@@ -1,36 +1,56 @@
 <style>
-  .mode-landscape .sl-foundation-layout { display: flex; flex-direction: row; align-items: stretch; min-height: 100%; }
-  .mode-landscape .sl-content-panel { width: 56%; padding: 3rem 3.5rem; display: flex; flex-direction: column; justify-content: center; }
-  .mode-landscape .sl-visual-panel { width: 44%; min-height: 0; position: relative; }
-  .mode-portrait .sl-foundation-layout { display: flex; flex-direction: column; min-height: 100%; }
-  .mode-portrait .sl-content-panel { padding: 2rem 1.75rem; }
-  .mode-portrait .sl-visual-panel { min-height: 260px; flex-shrink: 0; }
+.mode-landscape .sl-layout    { flex-direction: row; }
+.mode-portrait  .sl-layout    { flex-direction: column; }
+.mode-landscape .sl-narrative { width: 56%; padding: 2.5rem 2rem 2.5rem 3rem; }
+.mode-portrait  .sl-narrative { padding: 2rem 2rem 1rem; }
+.mode-landscape .sl-visual    { width: 44%; margin: 1.5rem 0; border-radius: 1.5rem 0 0 1.5rem; }
+.mode-portrait  .sl-visual    { flex: 1; min-height: 36%; }
 </style>
+
 <section class="w-full h-full overflow-auto bg-white">
-  <div class="sl-foundation-layout h-full">
-    <div class="sl-content-panel">
-      <p class="text-xs font-bold tracking-widest uppercase mb-6" style="color:#00E5FF;">Foundation</p>
-      <h1 class="text-3xl font-black leading-tight mb-8" style="color:#0B0F2E;">Etsy is a full-time job.<br>Most sellers never escape the grind.</h1>
-      <div class="space-y-6 mb-8">
-        <div class="border-l-4 pl-5" style="border-color:#E11D48;">
-          <h2 class="text-xs font-bold uppercase tracking-widest mb-2" style="color:#E11D48;">The Problem</h2>
-          <p class="text-sm leading-relaxed" style="color:#3D4A6B;">Running an Etsy store manually demands 20+ hours per week: trend research, product design, SEO copywriting, customer replies, Pinterest marketing. Solo sellers burn out before they scale. Generic automation tools don't understand Etsy's nuances — and hiring a team kills margin before it's earned.</p>
-        </div>
-        <div class="border-l-4 pl-5" style="border-color:#00E5FF;">
-          <h2 class="text-xs font-bold uppercase tracking-widest mb-2" style="color:#00E5FF;">The Solution</h2>
-          <p class="text-sm leading-relaxed" style="color:#3D4A6B;">AstroFur Syndicate deploys a coordinated fleet of 7 specialized AI agents — each with a distinct role, personality, and visual identity — to autonomously research trends, create products, optimize listings, run marketing, and handle customer engagement. The human sets strategy; the crew executes everything else, 24/7.</p>
+  <div class="sl-layout flex h-full">
+
+    <!-- Narrative zones -->
+    <div class="sl-narrative flex flex-col gap-4">
+      <p class="text-xs font-black tracking-widest uppercase text-slate-400">Why AstroFur Syndicate Exists</p>
+
+      <!-- Problem -->
+      <div class="flex-1 rounded-2xl flex flex-col justify-between p-6" style="background:#0B0F2E">
+        <span class="text-xs font-black tracking-widest uppercase" style="color:#FF6B6B">The Problem</span>
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2 leading-snug">
+            Running an Etsy store manually is exhausting — and nearly impossible to scale.
+          </h2>
+          <p class="text-sm leading-relaxed" style="color:#8892B0">
+            Sellers burn hours on trend research, design, SEO, listings, customer service, and marketing.
+            Most hit a ceiling — or quit — before they break profit.
+          </p>
         </div>
       </div>
-      <div class="flex flex-wrap gap-2">
-        <span class="px-3 py-1 rounded-full text-xs font-semibold" style="background-color:#0B0F2E; color:#00E5FF;">AI Automation</span>
-        <span class="px-3 py-1 rounded-full text-xs font-semibold" style="background-color:#0B0F2E; color:#9B4DFF;">Etsy-Native Strategy</span>
-        <span class="px-3 py-1 rounded-full text-xs font-semibold" style="background-color:#0B0F2E; color:#FFD700;">Gamified UX</span>
-        <span class="px-3 py-1 rounded-full text-xs font-semibold" style="background-color:#0B0F2E; color:#C8D6E5;">Passive Income</span>
+
+      <!-- Solution -->
+      <div class="flex-1 rounded-2xl flex flex-col justify-between p-6" style="background:#9B4DFF">
+        <span class="text-xs font-black tracking-widest uppercase" style="color:#E8CFFF">The Solution</span>
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2 leading-snug">
+            A crew of 7 AI agents handles every layer — continuously, autonomously, smarter every cycle.
+          </h2>
+          <p class="text-sm leading-relaxed" style="color:#E8CFFF">
+            AstroFur Syndicate runs the full Etsy pipeline and feeds every result back into a learning loop
+            that keeps what works and kills what doesn't — with zero daily input required.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="sl-visual-panel overflow-hidden">
-      <img src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=exhausted+solo+entrepreneur+surrounded+by+chaotic+open+laptop+tabs%2C+design+tools%2C+spreadsheets%2C+late+night%2C+overwhelmed+expression%2C+cinematic+moody+lighting" alt="Solo seller overwhelmed by manual Etsy work" class="w-full h-full object-cover" />
-      <div class="absolute inset-0" style="background:linear-gradient(to right, white 0%, transparent 30%);"></div>
+
+    <!-- Visual -->
+    <div class="sl-visual overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=Calm%20digital%20entrepreneur%20relaxing%20in%20a%20sleek%20space%20station%20lounge%20while%20seven%20glowing%20holographic%20AI%20crew%20avatars%20autonomously%20manage%20floating%20Etsy%20storefront%20dashboards%2C%20electric%20cyan%20and%20violet%20neon%20glow%2C%20futuristic%20sci-fi%20illustration%2C%20cinematic%20lighting"
+        alt="AI crew autonomously managing Etsy store"
+        class="w-full h-full object-cover"
+      />
     </div>
+
   </div>
 </section>
