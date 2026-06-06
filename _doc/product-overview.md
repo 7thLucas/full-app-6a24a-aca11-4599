@@ -346,6 +346,26 @@ Each agent outputs a structured JSON-formatted report delivered to a shared Airt
 
 ---
 
+## Dual Revenue Architecture
+
+AstroFur Syndicate generates income on two fronts simultaneously:
+
+**Revenue Stream 1 — The Creator's Own Etsy Store**  
+The AI crew runs the creator's Etsy store end-to-end. Revenue comes from product sales (digital downloads, print-on-demand, printable templates). The store is not yet live and will be the first real deployment of the system. After initial setup, it operates passively with the crew managing all daily tasks.
+
+**Revenue Stream 2 — AstroFur Syndicate Package Sales**  
+The creator packages and sells AstroFur Syndicate to other Etsy sellers who want to run their own automated stores. Each buyer receives the full system — crew architecture, agent prompts, automation workflows, and dashboard setup — configured for their store. The creator earns platform revenue per sale or per subscription period.
+
+**The Flywheel:**  
+Both streams reinforce each other. The creator's own store generates real performance data and social proof. Package sales multiply reach without multiplying effort. The continuous learning system improves every store it runs. Neither stream requires the other to launch, but together they compound.
+
+**Package Pricing Model (TBD):**
+- One-time package fee: to be defined at launch
+- Monthly/annual subscription access: to be defined
+- Tiered options (Starter / Pro / Done-For-You setup): to be defined
+
+---
+
 ## 30-Day Product Roadmap
 
 **Days 1–7 (Launch):**
